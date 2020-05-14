@@ -1,5 +1,5 @@
 
-FROM python:3.6.9-stretch
+FROM python:3.7.3-stretch
 
 ## Step 1:
 # Create a working directory
@@ -21,5 +21,5 @@ EXPOSE 80
 
 ## Step 5:
 # Run app.py at container launch
-CMD ["python", "web.py"]
+CMD ["python", "app.py"]
 
