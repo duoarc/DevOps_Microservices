@@ -6,7 +6,7 @@
 # Step 1:
 # Create dockerpath
 # dockerpath=<your docker ID/path>
-dockerpath=duodev/ucdnflaskapp
+dockerpath="duodev/ucdnflaskapp"
 
 # Step 2:  
 # Authenticate & tag
