@@ -9,7 +9,7 @@ dockerpath="duodev/ucdnflaskapp"
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-kubectl run "ucdnflaskapp" --generator=run-pod/v1 --image=$dockerpath --port=80 --labels app="ucdnflaskapp"
+kubectl run ucdnflaskapp --generator=run-pod/v1 --image=$dockerpath --port=80 --labels app=ucdnflaskapp
 
 # Step 3:
 # List kubernetes pods
